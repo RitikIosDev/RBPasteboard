@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         secondaryImageView.image = UIImage(named: "placeholderImage")
         // Do any additional setup after loading the view.
-        textView.text = "A pasteboard is a secure and standardized mechanism for the exchange of data within or between applications. Many operations depend on the pasteboard, notable copy-cut-paste. On OS X, drag-and-drop operations and application services also depend upon the pasteboard. But you can also use pasteboards in other situations where sharing data between applications is desirable."
+        textView.text = "A pasteboard is a secure and standardized mechanism for the exchange of data within or between applications. Many operations depend on the pasteboard, notable copy-cut-paste. On OS X, drag-and-drop operations and application services also depend upon the pasteboard. But you can also use pasteboards in other situations where sharing data between applications is desirable. my changes"
         
         setup()
     }
